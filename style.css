@@ -1,0 +1,321 @@
+* {
+    margin: 0px;
+}
+
+header::before {
+    background-image: url('Images/platter-2009590_960_720.jpg');
+    content: "";
+    position: absolute;
+    height: 460px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    opacity: 0.85;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-position-y: -151px;
+    background-size: 100%;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: white;
+}
+
+#navbar::before {
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.55;
+}
+
+#logo {
+    /* border: 2px solid green; */
+    margin: 2px 2px;
+    padding: 9px;
+    height: 80px;
+    width: 132px;
+    position: relative;
+    top: -10px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+#logo img {
+    height: 50px;
+    width: 50px;
+    border-radius: 12px;
+    display: flex;
+    margin: auto;
+    padding: 6px;
+}
+
+.navigation {
+    display: flex;
+    position: relative;
+    top: -6px;
+}
+
+.item {
+    list-style: none
+}
+
+.item a {
+    display: block;
+    padding: 6px 26px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.item a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.search {
+    display: flex;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    right: 250px;
+}
+
+.search #bt {
+    background-color: white;
+    height: 33px;
+    width: 38px;
+    margin: 1px 1px;
+    border-radius: 7px;
+    padding: 0px 4px;
+    cursor: pointer;
+    position: absolute;
+    top: 2px;
+    right: -174px;
+    border: 3px solid black;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+    height: 325px;
+}
+
+
+.primary {
+    font-size: 35px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 18px;
+    font-family: 'Righteous', cursive;
+}
+
+.home p {
+    color: white;
+    padding: 2px 120px;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+.btn {
+    margin: 15px 3px;
+    padding: 6px 15px;
+    color: white;
+    background-color: #cb4a4a;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid rgb(243, 196, 182);
+
+}
+
+.btn:hover {
+    background-color: #8a3030;
+    cursor: pointer;
+}
+
+/* .services-container{
+    padding: 4px;
+    position: relative;
+}
+
+.services-container::before {
+    background: url('Images/vegetable-skewer-3317060_960_720.jpg');
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-position-y: -193px;
+    background-size: cover;
+} */
+
+.secondary {
+    font-size: 35px;
+    color: rgb(2, 2, 2);
+    padding: 7px 20px;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+.services {
+    /* border: 2px solid black; */
+    display: flex;
+}
+
+.services .box {
+    border: 2px solid #c56f60;
+    margin: 0px 7px;
+    padding: 7px 10px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+
+.box h2 {
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    font-size: 23px;
+    margin: 5px;
+}
+
+.box p {
+    margin: 2px;
+    padding: 2px 10px;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+.box img {
+    height: 158px;
+    width: 162px;
+    display: block;
+    margin: 8px auto;
+    border-radius: 84px;
+
+}
+
+.box .btn {
+    display: block;
+    margin: 6px auto;
+    text-align: center;
+    width: fit-content;
+    padding: 7px;
+}
+
+#client-section {
+    margin: 20px 3px;
+    position: relative;
+}
+
+#client-section::before {
+    background: url('Images/chef-1417239_960_720.png');
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.25;
+    background-repeat: no-repeat;
+    background-position-y: -193px;
+    background-size: cover;
+}
+
+#clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clients img {
+    height: 107px;
+    /* border: 2px solid blue; */
+    border-radius: 23px;
+    margin: 3px;
+}
+
+footer {
+    display: flex;
+    align-items: centre;
+    justify-content: center;
+    background-color: black;
+    color: ghostwhite;
+    font-size: 17.5px;
+}
+
+#contact {
+    position: relative;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#contact::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.77;
+    background-image: url('Images/contact-us-1908762_960_720.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -234px;
+    margin: 12px 0px;
+}
+
+#contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 26px;
+
+}
+
+#contact-box input,
+textarea,
+.search input {
+    width: 632px;
+    padding: 5px;
+    margin: 5px 1px;
+    text-align: center;
+    border-radius: 7px;
+    border: 3px solid black;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+#sub input{
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 80px;
+    font-weight: bold;
+    border: 4px solid #bfa8a8;
+    border-radius: 9px;
+}
+#sub input:hover{
+    cursor: pointer;
+    font-size: 18px ;
+    color: #111168;
+}
+
+html{
+    scroll-behavior:smooth;
+}
